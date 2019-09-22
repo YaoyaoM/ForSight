@@ -1,0 +1,638 @@
+/* Formatting used on multiple pages */
+
+
+html {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    background-color: white;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    outline: 0;
+ }
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+figcaption{
+    width: 70%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.center {
+    text-align: center;
+}
+
+.the_button{
+    background-color: white;
+    color: #0200A3;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+
+.the_button2 {
+background-color: white;
+color: #0200A3;
+width: 100px;
+height: 30px;
+font-weight: bold;
+display: block;
+margin-top: 20px;
+
+}
+
+.er {
+    font-weight: bold;
+    font-size: 14px;
+    color: #0200A3;
+}
+
+.erperfmes {
+    width: 400px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #0200A3;
+    margin-left: 9.5%;
+}
+
+.the_button_perf {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    display: block;
+    margin-top: -4px;
+}
+
+
+.whole_form_page{
+    height: auto;
+    min-height:420px;
+}
+
+
+.no_margin {
+    margin: 0.5%;
+}
+
+.hid {
+    height: 205px;
+}
+
+.hid .text {
+    position:relative;
+    bottom:85px;
+    left:67px;
+    visibility:hidden;
+    opacity: .7;
+}
+
+.hid:hover .text {
+    visibility:visible;
+    color: black;
+    font-weight: bold;
+    opacity: 1;
+    font-size: 20px;
+}
+
+.hid .text:hover {
+    color: white;
+}
+
+
+/* Header  */
+.header_back{
+    z-index: 1;
+    background-color:white;
+    padding: 0px;
+    margin-left: 2px;
+    margin-right: 5px;
+    height: 150px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction:row;
+}
+
+
+
+
+.logo{
+    margin-right: 5%;
+    padding: 0;
+    width:100%;
+}
+
+.logo_cite{
+    background-color: white;
+}
+
+.figcap_logo{
+    color:white;
+    font-size: 12px;
+    float: right;
+}
+
+#nav {
+    display: inline-flex;
+    flex-direction:row;
+    background-color: white;
+    top: 0px;
+    width: 2000px;
+    z-index: 1;
+}
+
+#nav ul {
+    font-size: 25px;
+    padding: 35px;
+    background-color: white;
+    text-align: center;
+
+
+}
+
+#nav li {
+    padding: 50px;
+    display: inline;
+    text-decoration: none;
+
+}
+
+
+
+#nav a {
+    color:#0200A3;
+    text-decoration: none;
+    font-weight: bold;
+    border-style: hidden;
+    border-radius: 30px;
+    border-width: 4px;
+    padding: 12px;
+    border-color: white;
+}
+
+#nav a:hover {
+    /* background-color: turquoise; */
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 4px;
+    padding: 8px;
+    border-color: #0200A3;
+  }
+
+
+.logout_button2{
+    background-color:white;
+    border-color: #0200A3;
+    color: #0200A3;
+    margin-top: 5%;
+    margin-right: 60px;
+    margin-left: 45%;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    padding:8px;
+}
+
+
+/* Footer */
+footer{
+    background-color: #00a6c6;;
+    color: white;
+    margin: 0;
+}
+
+.footer_cite {
+    font-size: 11px;
+    float: right;
+    padding: 0;
+    margin: 2%;
+    margin-bottom: 0;
+
+}
+
+.footer_text {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+footer a {
+    color: white;
+}
+
+.divfooter{
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-color: #00a6c6;
+}
+
+/* Homepage */
+
+
+.home_text_b{
+    padding: 13px;
+    position: relative;
+    font-size: 20px;
+    font-weight: medium;
+    margin-left: 250px;
+    width: 600px;
+    margin-top:-650px;
+    text-align:middle;
+    margin-right: auto;
+    background: transparent;
+
+}
+
+.home_text2 {
+    position: relative;
+    margin-top: 400px;
+    text-align: center;
+    background: transparent;
+}
+
+.getstartedbutton {
+    margin-right: 300px;
+    margin-left: 800px;
+}
+
+.home_images{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 4%;
+}
+
+.small_image{
+    width: 355px;
+}
+
+.home_text{
+    margin-left: 5%;
+    margin-top: 0%;
+    width: 160%;
+    padding: 10px;
+    background: transparent;
+}
+
+.backgroundimage {
+    margin-right: -400%;
+    margin-left: 20%;
+    padding: 400px;
+}
+
+.home_title{
+    position: relative;
+    top: -750px;
+    left: 140px;
+    font-size: 30px;
+    width:600px;
+    font-size: 30px;
+    font-weight: semibold-italic;
+    margin-right: auto;
+}
+
+.home_title2{
+    width:600px;
+    margin-right: 20%;
+}
+
+
+
+.guide_display{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.guidebox{
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+.guide_div1{
+    order: 1;
+    padding: 15px;
+}
+
+
+.guide_div2{
+    order: 2;
+    padding: 15px;
+}
+
+.guide_learn{
+    text-align: left;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
+#file_upload {
+    display: flex;
+    flex-direction: column;
+}
+
+#file_upload2 {
+    display:flex;
+    flex-direction:column;
+}
+
+.nomember{
+    margin-left: 30%;
+}
+
+
+#logout_button {
+    margin-right: 10%;
+    margin-top: 15px;
+}
+
+
+.walkthru3 {
+    display: inline-flex;
+    position: relative;
+    margin-left: 20%;
+}
+
+.mini {
+    padding: 150px;
+}
+
+.logout_button{
+    background-color:white;
+    border-color: navy;
+    border-width: 4px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 80px;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    padding: 0;
+}
+
+
+
+.member_heading {
+    text-align: center;
+}
+
+.member_heading_tag {
+    text-align: center;
+    margin-right: 10%;
+
+}
+
+.member_top{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    height: 50px;
+}
+
+.mem_title{
+    text-align: center;
+}
+
+.new_mem_title{
+    text-align:left;
+}
+
+.update_form2 {
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.update_form1{
+    margin-left: 5%;
+}
+
+/* Performances page*/
+.add_p {
+    text-align: center;
+}
+
+.nem_mem_title {
+    text-align: center;
+}
+
+.perf_top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+
+.perf_description{
+    border: 2px dotted black;
+    padding: 8px;
+}
+
+.perf_title2{
+    text-align: center;
+    font-size: 42px;
+}
+
+
+.perf_1{
+    display: flex;
+    flex-direction: column;
+}
+
+.perf{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    flex-wrap: wrap;
+    margin-left: 6%;
+    text-align: left;
+}
+
+.perform_right{
+    margin-top: 2%;
+}
+
+.vote{
+    margin: 0px;
+    font-weight: bold;
+    margin-left: 25%;
+}
+
+.poster_title{
+    text-align: center;
+}
+
+
+.perf_2 {
+    text-align: center;
+}
+
+
+.poll_button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    display: block;
+    margin-left: 30%;
+    margin-top: -15%;
+}
+
+
+#uploadperformance{
+    display: flex;
+    flex-direction: row;
+}
+
+#uploadperformance div{
+    padding: 5px;
+}
+
+.poll_results{
+    color: black;
+}
+
+.poll_a {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+.poll_title{
+    padding-left: 75px;
+}
+
+.poll_and_results{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+
+.Poll {
+    width: 293px;
+    text-align: center;
+}
+
+.poll_q {
+    margin-left: 20%;
+    padding: 1%;
+    width: 100%;
+}
+
+
+.win {
+    margin: 10px 0 0 40px;
+    width: 230px;
+}
+
+.shift{
+    margin-left: 11%;
+}
+
+.squish {
+    width: 450px;
+}
+
+
+.fit {
+    object-fit: cover;
+    width: 330px;
+}
+
+.del_show {
+    margin-left: 9.5%;
+}
+
+
+/*Apply page*/
+.form_error {
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}
+
+.loginform {
+    text-align: center;
+}
+
+.loginlabelbottom {
+    margin-right: 24px;
+}
+
+#login_form{
+    width: 330px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.loginformelement {
+    padding: 8px;
+}
+
+.reviewform2{
+    text-align:center;
+}
+
+#reviewform{
+    width: 400px;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#reviewform label{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.apply_text{
+    margin-left: 20%;
+    margin-right: auto;
+    width: 60%;
+    padding: 13px;
+}
+
+.newp {
+    margin: auto;
+    font-size: 19px;
+}
