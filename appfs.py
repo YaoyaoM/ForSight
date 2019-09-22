@@ -1,18 +1,6 @@
-# import json
-# from dbfs import db, Codes
 from flask import Flask, request
 
 app = Flask(__name__)
-app.run()
-# db_filename = 'todo.db'
-
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///%s' % db_filename
-# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-# app.config['SQLALCHEMY_ECHO'] = True
-
-# db.init_app(app)
-# with app.app_context():
-#     db.create_all()
 
 ## A FUNCTION FOR EASIER STRING PARSING
 
@@ -24,7 +12,9 @@ def find_between( s, begin, cease ):
     except ValueError: 
         return ""
 
-
+@app.route('/')
+def hello():
+    return 'hello'
 
 
 @app.route('/review', methods = ['POST'])
@@ -59,6 +49,9 @@ def css_review():
 
     return matrix
       
+      
+if __name__ == '__main__':
+    app.run()
       
 
 
